@@ -1,0 +1,11 @@
+spring:
+  mvc.async.request-timeout: 6000
+
+
+server.port: 8080
+
+http.client:
+  requestTimeout: 3000
+
+url: http://localhost:${wiremock.port}/example
+logging.level.root: debug

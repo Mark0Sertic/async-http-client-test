@@ -1,0 +1,9 @@
+spring:
+  mvc.async.request-timeout: 40000
+
+server.port: 8080
+
+http.client:
+  requestTimeout: 30000
+
+url: http://localhost:7891/example
