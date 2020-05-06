@@ -6,4 +6,4 @@ server.port: 8080
 http.client:
   requestTimeout: 30000
 
-url: http://localhost:7891/example
+url: http://localhost:8080/example
